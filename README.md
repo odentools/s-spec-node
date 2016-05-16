@@ -3,20 +3,18 @@
 
 This project is development phase.
 
-[![Build Status](https://travis-ci.org/odentools/s-spec.svg?branch=master)](https://travis-ci.org/odentools/s-spec)
+[![Build Status](https://travis-ci.org/odentools/s-spec-node.svg?branch=master)](https://travis-ci.org/odentools/s-spec-node)
 
 
 ## Get Started
 
 ### On Your Code
 
-Currently it works on Node.js / io.js.
-
 ```
-$ npm install --save https://github.com/odentools/s-spec.git
+$ npm install --save https://github.com/odentools/s-spec-node.git
 ```
 ```js
-var sv = require('SSpecValidator');
+var sv = require('s-spec');
 
 // Validation
 console.log(sv.isValid('INTEGER(0,255) DEFAULT 0', 100)); // Okay
