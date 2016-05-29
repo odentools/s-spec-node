@@ -5,8 +5,8 @@
  */
 'use strict';
 
-var Parser = require(__dirname + '/parser'),
-	helper = require(__dirname + '/helper');
+var Parser = require(__dirname + '/models/parser'),
+	helper = require(__dirname + '/models/helper');
 
 
 /**

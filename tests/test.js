@@ -1,5 +1,5 @@
 var assert = require('assert'),
-	SSpecValidator = require(__dirname + '/../models/validator.js'),
+	SSpecValidator = require(__dirname + '/../validator.js'),
 	SSpecParser = require(__dirname + '/../models/parser.js');
 
 describe('Initialization', function () {
